@@ -99,11 +99,11 @@ body {
     <main class="form-signin w-100 m-auto">
         <form method="post" action="/login">
             {% csrf_token %}
-          <img class="mb-4" src="/docs/5.2/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
-          <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+          <img class="mb-4 d-flex justify-content-between "  style="position: relative;left: 77px;" src="/static/login.jpg" alt="" width="150" height="150">
+          <h1 class="h3 mb-3 fw-normal text-center"><b>Please sign in</b></h1>
       
           <div class="form-floating">
-            <input type="text" class="form-control" id="floatingInput" placeholder="username" name="username">
+            <input type="text" class="form-control my-2" id="floatingInput" placeholder="username" name="username">
             <label for="floatingInput"> Username </label>
           </div>
           <div class="form-floating">
